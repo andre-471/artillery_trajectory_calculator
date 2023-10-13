@@ -17,16 +17,22 @@ public class Projectile {
         double discriminant = Math.pow(Math.pow(velocity, 4) - gravity * (gravity * Math.pow(distance, 2)), 0.5);
         if (sign < 0) {
             // lower angle of launch
-            return Math.toRadians(Math.atan((Math.pow(velocity, 2) - discriminant) / (gravity * distance)));
+            return Math.toDegrees(Math.atan((Math.pow(velocity, 2) - discriminant) / (gravity * distance)));
         } else {
             // higher angle of launch
-            return Math.toRadians(Math.atan((Math.pow(velocity, 2) + discriminant) / (gravity * distance)));
+            return Math.toDegrees(Math.atan((Math.pow(velocity, 2) + discriminant) / (gravity * distance)));
         }
     }
 
-    public double distanceGivenAngle(double angle) {
-        return Math.pow(velocity, 2) * Math.sin(2 * Math.toDegrees(angle)) / Math.abs(gravity);
-    }
+    public double[] displacementAtTime(double angle, double time) {
+        angle = Math.toRadians(angle);
+        double horizontalDisplacement = velocity * time * Math.cos(angle);
+        double verticalDisplacement = velocity * time * Math.sin(angle) - 0.5 * gravity * Math.pow(time, 2);
+        return new double[]{horizontalDisplacement, verticalDisplacement};
 
+    }
+    public double timeOfFlight(double angle) {
+        return 2 * velocity * Math.sin(Math.toRadians(angle)) / gravity;
+    }
 
 }
