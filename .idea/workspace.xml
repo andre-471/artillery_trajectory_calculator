@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e93bca1-924c-449e-9344-7dfb2c3b426b" name="Changes" comment="new methods">
+    <list default="true" id="1e93bca1-924c-449e-9344-7dfb2c3b426b" name="Changes" comment="most methods work, OOPing now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artillery_trajectory_calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/artillery_trajectory_calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grapher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grapher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projectile.java" afterDir="false" />
     </list>
@@ -42,8 +42,8 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/Users/andre/IdeaProjects/artillery_trajectory_calculator/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -74,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697206232162</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="most methods work, OOPing now">
+      <option name="closed" value="true" />
+      <created>1697224704903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697224704903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commmmmmmmmit" />
     <MESSAGE value="new methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="new methods" />
+    <MESSAGE value="most methods work, OOPing now" />
+    <option name="LAST_COMMIT_MESSAGE" value="most methods work, OOPing now" />
   </component>
 </project>
