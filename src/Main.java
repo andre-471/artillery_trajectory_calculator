@@ -15,8 +15,8 @@ public class Main {
             System.out.println("Angle needed to reach target:");
             System.out.println(df.format(lower) + "° OR " + df.format(higher) + "°");
             System.out.println("Time to reach target:");
-            System.out.println(df.format(projectile.timeOfFlight(lower)) + " OR "
-                    + df.format(projectile.timeOfFlight(higher)));
+            System.out.println(df.format(projectile.timeOfFlight(lower)) + "s OR "
+                    + df.format(projectile.timeOfFlight(higher)) + "s");
 
             Grapher grapher = new Grapher();
             grapher.addProjectile(projectile);
